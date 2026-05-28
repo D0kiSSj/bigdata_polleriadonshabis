@@ -1,9 +1,10 @@
 # 📊 Proyecto T2 - Inteligencia de Negocios para Pollería "Don SHabis"
 
 ## 👥 Integrantes
-* **Grado, Alexander** - Ingeniería de Sistemas (UPN)
-* [Apellido, Nombre] - [Rol en el grupo]
-* [Apellido, Nombre] - [Rol en el grupo]
+* **Grados Tarazona, Alexander** 
+* [Apellido, Nombre] 
+* [Apellido, Nombre]
+* [Apellido, Nombre] 
 
 ---
 
