@@ -1,12 +1,13 @@
 CREATE DATABASE DonShabis_DM_Ventas;
 GO
+
 USE DonShabis_DM_Ventas;
 GO
 
 CREATE TABLE Dim_Cliente (
     id_cliente INT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
-    telefono VARCHAR(20),
+    telefono VARCHAR(50),
     distrito VARCHAR(80)
 );
 
@@ -22,7 +23,7 @@ CREATE TABLE Dim_Tiempo (
     fecha DATE NOT NULL,
     dia INT NOT NULL,
     mes INT NOT NULL,
-    nombre_mes VARCHAR(20) NOT NULL,
+    nombre_mes VARCHAR(50) NOT NULL,
     anio INT NOT NULL,
     trimestre INT NOT NULL
 );
@@ -31,7 +32,7 @@ CREATE TABLE Dim_Empleado (
     id_empleado INT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     cargo VARCHAR(80) NOT NULL,
-    turno VARCHAR(30) NOT NULL
+    turno VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Dim_Sucursal (
@@ -58,60 +59,10 @@ CREATE TABLE Fact_Ventas (
     CONSTRAINT FK_Fact_Empleado FOREIGN KEY (id_empleado) REFERENCES Dim_Empleado(id_empleado),
     CONSTRAINT FK_Fact_Sucursal FOREIGN KEY (id_sucursal) REFERENCES Dim_Sucursal(id_sucursal)
 );
+
 GO
 
-/* Tablas staging para ETL */
-CREATE TABLE stg_cliente (
-    id_cliente VARCHAR(20),
-    nombre VARCHAR(100),
-    telefono VARCHAR(20),
-    distrito VARCHAR(80)
-);
-
-CREATE TABLE stg_producto (
-    id_producto VARCHAR(20),
-    nombre_producto VARCHAR(120),
-    categoria VARCHAR(80),
-    precio VARCHAR(30)
-);
-
-CREATE TABLE stg_tiempo (
-    id_tiempo VARCHAR(20),
-    fecha VARCHAR(20),
-    dia VARCHAR(10),
-    mes VARCHAR(10),
-    nombre_mes VARCHAR(20),
-    anio VARCHAR(10),
-    trimestre VARCHAR(10)
-);
-
-CREATE TABLE stg_empleado (
-    id_empleado VARCHAR(20),
-    nombre VARCHAR(100),
-    cargo VARCHAR(80),
-    turno VARCHAR(30)
-);
-
-CREATE TABLE stg_sucursal (
-    id_sucursal VARCHAR(20),
-    nombre_sucursal VARCHAR(100),
-    direccion VARCHAR(150),
-    distrito VARCHAR(80)
-);
-
-CREATE TABLE stg_ventas (
-    id_venta VARCHAR(20),
-    id_cliente VARCHAR(20),
-    id_producto VARCHAR(20),
-    id_tiempo VARCHAR(20),
-    id_empleado VARCHAR(20),
-    id_sucursal VARCHAR(20),
-    cantidad_vendida VARCHAR(20),
-    total_venta VARCHAR(30),
-    costo_estimado VARCHAR(30),
-    ganancia VARCHAR(30)
-);
-GO
+--VISTA PARA VISUALIZAR DETALLE DE VENTAS--
 
 CREATE OR ALTER VIEW vw_FactVentasDetalle AS
 SELECT
