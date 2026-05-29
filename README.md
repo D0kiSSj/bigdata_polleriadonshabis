@@ -11,6 +11,9 @@
 
 ## 📁 Estructura de los Entregables
 
+VIDEO DE T2
+https://youtu.be/6JgmZVenF9k
+
 De acuerdo con los requerimientos de la evaluación, los archivos se encuentran organizados de forma independiente en las siguientes carpetas:
 
 ### 1. 📁 BD OLTP (Base de Datos Transaccional)
