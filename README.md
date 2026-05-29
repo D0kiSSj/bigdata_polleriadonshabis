@@ -2,19 +2,12 @@
 
 ## 👥 Integrantes
 * **Grados Tarazona, Alexander** 
-* [Apellido, Nombre] 
-* [Apellido, Nombre]
-* [Apellido, Nombre] 
+* ESQUIVEL HUAMAN, DEYVID ANDRE 
+* GARCIA FUERTES, SERGIO FARID
+* LARA ARTEAGA, JEREMY JOEL 
 
 ---
 
-## 🎥 5. Video Demostrativo (Máximo 10 minutos)
-¡Obligatorio para la calificación! Revisa el funcionamiento completo del proyecto aquí:
- **[HAZ CLIC AQUÍ PARA VER EL VIDEO DEMOSTRATIVO](AQUÍ_PEGA_EL_LINK_DE_YOUTUBE_O_DRIVE)**
-
-*El video incluye: Demostración de la BD transaccional, ejecución del proceso ETL, el Datamart en SQL Server y la explicación de los indicadores en Power BI.*
-
----
 
 ## 📁 Estructura de los Entregables
 
