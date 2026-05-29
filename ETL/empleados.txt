@@ -1,0 +1,21 @@
+id_empleado|nombre|cargo|turno
+1|Carlos Ruiz|Cajero|Tarde
+2|Ana Lopez|Mesera|Tarde
+3|Pedro Torres|Administrador|Completo
+4|Luis Garcia|Cocinero|Tarde
+5|Maria Flores|Repartidor|Noche
+6|Jorge Mendoza|Cajero|Noche
+7|Sofia Castro|Mesera|Noche
+8|Miguel Reyes|Cocinero|Noche
+9|Daniel Rojas|Repartidor|Tarde
+10|Camila Perez|Supervisor|Completo
+11|Bruno Salazar|Cajero|Tarde
+12|Rocio Peña|Mesera|Tarde
+13|Hector Luna|Cocinero|Tarde
+14|Noemi Rios|Almacen|Mañana
+15|Franco Vega|Repartidor|Noche
+16|Laura Campos|Cajero|Mañana
+17|Ivan Soto|Supervisor|Noche
+18|Maribel Leon|Cocinero|Mañana
+19|Raul Molina|Almacen|Tarde
+20|Karla Nuñez|Mesera|Mañana

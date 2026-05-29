@@ -1,0 +1,4 @@
+id_sucursal|nombre_sucursal|direccion|distrito
+1|Don Shabi's Principal|Av. Peru 123|San Martin de Porres
+2|Don Shabi's Norte|Av. Universitaria 456|Los Olivos
+3|Don Shabi's Delivery|Av. Central 789|Independencia

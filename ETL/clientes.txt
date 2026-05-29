@@ -1,0 +1,61 @@
+id_cliente|nombre|telefono|distrito
+1|Juan Perez|910433218|Los Olivos
+2|Maria Lopez|996001338|Jesus Maria
+3|Carlos Diaz|908386379|Rimac
+4|Ana Torres|902654235|Los Olivos
+5|Pedro Ramos|916155940|Cercado de Lima
+6|Lucia Mendoza|981618495|Jesus Maria
+7|Jorge Castillo|931034131|San Miguel
+8|Sofia Herrera|947525534|Los Olivos
+9|Diego Navarro|992832764|Pueblo Libre
+10|Camila Vega|935030564|Los Olivos
+11|Luis Fernandez|939537672|Rimac
+12|Valeria Campos|923884969|San Miguel
+13|Ricardo Salas|953287101|Independencia
+14|Daniela Cruz|926916697|Pueblo Libre
+15|Martin Reyes|948018451|Rimac
+16|Fernanda Ruiz|962704828|Los Olivos
+17|Jose Alvarez|948932528|Pueblo Libre
+18|Andrea Flores|909570154|Comas
+19|Miguel Castro|903911718|Independencia
+20|Paula Rojas|927824896|Comas
+21|Sergio Garcia|983465787|Los Olivos
+22|Deyvid Esquivel|933150983|Jesus Maria
+23|Maycol Grados|930103105|Los Olivos
+24|Jeremy Lara|983473829|Jesus Maria
+25|Rosa Paredes|973763116|Callao
+26|Alex Huaman|966701065|Los Olivos
+27|Brenda Silva|933387262|Rimac
+28|Kevin Ramos|973178108|San Martin de Porres
+29|Tatiana Leon|913267736|San Martin de Porres
+30|Oscar Medina|926064746|Pueblo Libre
+31|Mariana Solis|972343098|San Martin de Porres
+32|Hugo Ramirez|950097882|San Martin de Porres
+33|Natalia Torres|981219136|Los Olivos
+34|Renzo Vargas|993990916|Jesus Maria
+35|Karla Soto|998543534|San Miguel
+36|Gustavo Meza|924751079|Jesus Maria
+37|Fiorella Molina|911838425|Los Olivos
+38|Adrian Caceres|935427849|Pueblo Libre
+39|Milagros Campos|908412411|Pueblo Libre
+40|Piero Vasquez|924493534|Pueblo Libre
+41|Claudia Rios|974016400|Callao
+42|Marco Quispe|924278680|Los Olivos
+43|Patricia Aguilar|912805982|San Miguel
+44|Alonso Flores|920450533|Los Olivos
+45|Melissa Romero|958692322|San Miguel
+46|Fabian Gutierrez|902563421|San Miguel
+47|Cecilia Andrade|907337543|Comas
+48|Cristian Navarro|903654145|Pueblo Libre
+49|Vanessa Delgado|968501429|Rimac
+50|Roberto Bravo|901965569|Pueblo Libre
+51|Estefany Morales|916934060|Pueblo Libre
+52|Sebastian Chavez|983561595|Los Olivos
+53|Ruth Vargas|948465648|Independencia
+54|Joel Paredes|936629946|Pueblo Libre
+55|Diana Herrera|904436995|Cercado de Lima
+56|Victor Cardenas|977387214|Pueblo Libre
+57|Gabriela Ortiz|995134332|San Martin de Porres
+58|Enrique Salinas|903791769|Comas
+59|Pamela Rojas|967632016|Comas
+60|Eduardo Castillo|928708317|Independencia
